@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.btn{
+    color: rgba(255, 255, 255, 0.644);
+    background-color: rgb(212, 212, 19);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.buu{
+    color: rgba(255, 255, 255, 0.644);
+    background-color: rgb(212, 212, 19);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+.conversor-imagen{
+    width: 150px;
+}
+
+.moneda{
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 10px;
+
+}
+
+.moneda select{
+    padding: 10px 20px 10px 10px;
+    appearance: none;
+    border: 1px solid rgb(231, 219, 219);
+    font-size: 16px;
+}
+
+.moneda input{
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+}
+
+.TazaDeCambio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cambio{
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}
+
+@media (max-width:600px){
+    .moneda input{
+        width: 200px;
+    }
+}
+
+.consulta {
+    margin-top: 20px;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 300px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.ayuda {
+    margin-top: 100px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
